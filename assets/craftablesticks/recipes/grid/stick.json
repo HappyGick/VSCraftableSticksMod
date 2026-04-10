@@ -2,7 +2,7 @@
 	{
 		"ingredientPattern": "AP",
 		"ingredients": {
-			"A": { "type": "item", "code": "game:axe-felling-*", "isTool": true, "name": "material", "skipVariants": ["iron", "meteoriciron", "steel"] },
+			"A": { "type": "item", "code": "game:axe-felling-*", "isTool": true, "name": "material", "skipVariants": ["iron", "meteoriciron", "steel", "wfradmin"] },
 			"P": { "type": "item", "code": "game:plank-*" }
 		},
 		"name": "stick",
@@ -62,5 +62,18 @@
 		"height": 2,
 		"recipeGroup": 3,
 		"output": { "type": "item", "code": "game:stick", "quantity": 2  }
+	},
+	{
+		"ingredientPattern": "AP",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:axe-felling-*", "isTool": true, "allowedVariants": ["wfradmin"] },
+			"P": { "type": "item", "code": "game:plank-*"}
+		},
+		"name": "stick",
+		"shapeless": true,
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 4,
+		"output": { "type": "item", "code": "game:stick", "quantity": 64  }
 	}
 ]
