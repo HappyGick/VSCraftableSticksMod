@@ -1,2 +1,2 @@
-# VSCraftableSticksMod
-A simple Content mod for crafting sticks using boards.
+# Craftable Sticks
+A simple Vintage Story Content mod for crafting sticks using wooden boards.
