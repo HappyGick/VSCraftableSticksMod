@@ -9,7 +9,7 @@
 		"shapeless": true,
 		"width": 1,
 		"height": 2,
-		"output": { "type": "item", "code": "game:stick", "quantity": 4 }
+		"output": { "type": "item", "code": "game:stick", "quantity": 3 }
 	},
 	{
 		"ingredientPattern": "AP",
