@@ -1,7 +1,7 @@
 {
   "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
   "type": "Content",
-  "modid": "craftablesticks",
+  "modid": "craftsticks",
   "name": "Craftable Sticks",
   "authors": [
     "HappyGick"
