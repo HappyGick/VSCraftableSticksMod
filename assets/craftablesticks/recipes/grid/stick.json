@@ -1,0 +1,66 @@
+[
+	{
+		"ingredientPattern": "AP",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:axe-felling-*", "isTool": true, "name": "material", "skipVariants": ["iron", "meteoriciron", "steel"] },
+			"P": { "type": "item", "code": "game:plank-*" }
+		},
+		"name": "stick",
+		"shapeless": true,
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "game:stick", "quantity": 4 }
+	},
+	{
+		"ingredientPattern": "AP",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:axe-felling-*", "isTool": true, "allowedVariants": ["iron", "meteoriciron"] },
+			"P": { "type": "item", "code": "game:plank-*"}
+		},
+		"name": "stick",
+		"shapeless": true,
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 1,
+		"output": { "type": "item", "code": "game:stick", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "AP",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:axe-felling-*", "isTool": true, "allowedVariants": ["steel"] },
+			"P": { "type": "item", "code": "game:plank-*"}
+		},
+		"name": "stick",
+		"shapeless": true,
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": { "type": "item", "code": "game:stick", "quantity": 5  }
+	},
+	{
+		"ingredientPattern": "AP",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true, "allowedVariants": [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert" ] },
+			"P": { "type": "item", "code": "game:plank-*"}
+		},
+		"name": "stick",
+		"shapeless": true,
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 3,
+		"output": { "type": "item", "code": "game:stick", "quantity": 2  }
+	},
+	{
+		"ingredientPattern": "AP",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:axe-bone-*", "isTool": true, "allowedVariants": [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert" ] },
+			"P": { "type": "item", "code": "game:plank-*"}
+		},
+		"name": "stick",
+		"shapeless": true,
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 3,
+		"output": { "type": "item", "code": "game:stick", "quantity": 2  }
+	}
+]

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+  "type": "Content",
+  "modid": "craftablesticks",
+  "name": "Craftable Sticks",
+  "authors": [
+    "HappyGick"
+  ],
+  "description": "Adds QoL recipes for crafting sticks",
+  "version": "1.0.0",
+  "dependencies": {
+    "game": "1.21.0"
+  }
+}
